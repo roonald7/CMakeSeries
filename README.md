@@ -30,3 +30,13 @@ Cross Platform C++ Development with CMake
 - $ cmake ../source/
 - $ make
 - $ ./HelloAppBinary
+
+### Generators
+
+1. Building with MinGW Makefiles
+    - $ cmake -G "MinGW Makefiles" ..\source\
+    - $ mingw32-make (make on Linux)
+
+2. Building with Ninja
+    - $ cmake -G "Ninja" ..\source\
+    - $ ninja
