@@ -19,7 +19,7 @@ Cross Platform C++ Development with CMake
 
 - $ mkdir build 
 - $ cd .\build\
-- $ cmake -DCMAKE_GENERATOR="Visual Studio 16 2019" ..
+- $ cmake ..\source\
 - $ msbuild .\HelloApp.sln
 - $ .\Debug\HelloApp.exe
 
