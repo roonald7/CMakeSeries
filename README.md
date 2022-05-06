@@ -1,2 +1,23 @@
 # CMakeSeries
 Cross Platform C++ Development with CMake
+
+## 01
+
+### Build with MinGW/G++ c++ 20 / Windows PowerShell
+
+- $ g++ -g -std=c++20 main.cpp -o test.exe
+- $ .\test.exe
+
+### Build with VisualStudio c++ latest version / Developer PowerShell for VS 2019
+
+- $ cl.exe /Zi /std:c++latest /EHsc /Fe: test.exe main.cpp
+- $ .\test.exe
+
+## 02
+
+### Build Project with CMake on Windows
+
+- $ mkdir build && cd build
+- $ cmake -DCMAKE_GENERATOR="Visual Studio 16 2019" ..
+- $ msbuild .\HelloApp.sln
+- $ .\Debug\HelloApp.exe
