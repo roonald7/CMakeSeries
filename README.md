@@ -1,6 +1,17 @@
 # CMakeSeries
 Cross Platform C++ Development with CMake
 
+## Downloads
+
+1. Cmake
+    - https://cmake.org/download/
+
+2. MinGW
+    - https://winlibs.com/
+
+3. Ninja
+    - https://github.com/ninja-build/ninja/releases
+    
 ## 01
 
 ### Build with MinGW/G++ c++ 20 / Windows PowerShell
