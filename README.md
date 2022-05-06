@@ -17,7 +17,16 @@ Cross Platform C++ Development with CMake
 
 ### Build Project with CMake on Windows
 
-- $ mkdir build && cd build
+- $ mkdir build 
+- $ cd .\build\
 - $ cmake -DCMAKE_GENERATOR="Visual Studio 16 2019" ..
 - $ msbuild .\HelloApp.sln
 - $ .\Debug\HelloApp.exe
+
+### Build Project with CMake on Linux
+
+- $ mkdir build
+- $ cd build/
+- $ cmake ../source/
+- $ make
+- $ ./HelloAppBinary
