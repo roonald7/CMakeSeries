@@ -51,3 +51,9 @@ Cross Platform C++ Development with CMake
 2. Building with Ninja
     - $ cmake -G "Ninja" ..\source\
     - $ ninja
+
+3. General build for whatever generator you've used
+    - $ cmake --build .
+
+4. Check possible action after a build
+    - $ cmake --build . --target help
