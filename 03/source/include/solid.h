@@ -3,7 +3,7 @@
 
 #include <string>
 
-class Solid {
+struct Solid {
     virtual void area() = 0;
     virtual void vertex() = 0;
     virtual void volume() = 0;

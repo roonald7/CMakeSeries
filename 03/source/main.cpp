@@ -2,6 +2,7 @@
 #include "pyramid.h"
 #include <memory>
 #include <iostream>
+#include <vector>
 
 enum class SolidType {
     UNKNOWN = 0,
@@ -39,9 +40,13 @@ int main(int argc, char** argv) {
 
     try
     {   
-        std::cout << "Type = " << argv[1] << std::endl;
-        auto solid = make_solid(solid_type(*argv[1]));
+        auto solid_1 = make_solid(solid_type(1));
+        auto solid_2 = make_solid(solid_type(2));
+        
+        solid_1->type();
+        solid_2->type();
     }
+
     catch (...)
     {
         std::cout << "Unknown Solid" << std::endl;
