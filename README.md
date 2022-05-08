@@ -40,7 +40,15 @@ Cross Platform C++ Development with CMake
 - $ cd build/
 - $ cmake ../source/
 - $ make
-- $ ./HelloAppBinary
+- $ ./HelloApp
+
+### Build Project with CMake on Mac
+
+- $ mkdir build
+- $ cd build/
+- $ cmake ../source/
+- $ make
+- $ ./HelloApp
 
 ### Generators
 

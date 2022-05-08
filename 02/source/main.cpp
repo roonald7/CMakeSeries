@@ -11,7 +11,7 @@ T add( T a, T b)
 
 int main()
 {
-    std::cout << "Hello from C++ 20 with CMake on Windows" << std::endl;
+    std::cout << "Hello from C++ 20 with CMake on Windows/Linux/MacOS" << std::endl;
     std::cout << "The sum is : " << add(7,5) << std::endl;
 
     return 0;
